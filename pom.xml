@@ -7,6 +7,9 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>football-api-web</module>
+      <module>football-api-common</module>
+    <module>football-api-service</module>
+    <module>football-api-serviceImpl</module>
   </modules>
   <packaging>pom</packaging>
 
