@@ -1,0 +1,6 @@
+    football-api是整个项目的root。下面包含了
+    fooball-api-web：为app提供api的目录，包含部分h5页面，所以是一个web项目
+    fooball-api-ommon：为项目公共功能
+    fooball-api-service：为项目的业务接口层
+    fooball-api-serviceimpl： 为项目的实现层；包含dao。mapping
+
