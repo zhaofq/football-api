@@ -1,25 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>football-api</artifactId>
+        <artifactId>football-api-serviceImpl</artifactId>
         <groupId>com.football</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>football-api-serviceImpl</artifactId>
-    <packaging>pom</packaging>
-
-    <name>football-api-serviceImpl</name>
+    <artifactId>football-api-serviceImpl-user</artifactId>
+    <packaging>war</packaging>
+    <name>football-api-serviceImpl-user Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>football-api-serviceImpl-user</module>
-    </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -28,4 +18,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <finalName>football-api-serviceImpl-user</finalName>
+    </build>
 </project>
